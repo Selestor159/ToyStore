@@ -1,0 +1,724 @@
+*
+{
+	box-sizing: border-box;
+}
+a
+{
+    text-decoration: none;
+    color: white;
+}
+h1, h2, h3, h4, h5, h6
+{
+	margin: 0 auto;
+}
+
+body
+{
+    background-color: #F8F8F8;
+	margin: 0px 0px;
+}
+.container
+{
+	width: 100%;
+	max-width: 1440px;
+	margin: 0 auto;
+	padding: 0 135px;
+
+}
+/*Call_Us*/
+.Call_Us
+{
+    width: 100%;
+    background-color:#A5C926;
+    height: 30px;
+}
+.Call_Us_inner
+{
+    padding: 8px 0;
+    display: flex;
+    justify-content: space-between;
+	width: 100%;
+
+}
+.Tel
+{
+    color: white;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 16px;
+    margin:0 16px;
+}
+.Email
+{
+    color: white;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 16px;
+}
+.Social
+{
+
+    margin: 0 30px;
+
+}
+.Social__img
+{
+    margin: 0 5px;
+}
+.info
+{
+    display: flex;
+    justify-content:normal;
+}
+
+/*header*/
+.header
+{
+    padding: 20px 0;
+}
+.header_inner
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.menu
+{
+    display: flex;
+    justify-content:normal;
+}
+.Z
+{
+    margin: 0 20px;
+    font-family: 'Varela Round';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 32px;
+
+}
+.menu_element
+{
+    color: #111111;
+    margin: 3px 25px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+.Payment
+{
+    padding: 4px 0;
+    display: flex;
+    justify-content:normal;
+}
+.bye
+{
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 24px; 
+}
+.basket
+{
+    margin: 0 13px;
+}
+.circle
+{
+    background: #A5C926;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+/*toys*/
+.toys
+{
+    width: 100%;
+    height: 640px;
+    background: url(img/background.svg);
+    background-repeat: no-repeat;
+	background-size: cover;
+    padding: 160px 0;
+}
+.block
+{
+    
+    background-color: white;
+    width: 507px;
+    height: 308px;
+    border-radius: 15px;
+    padding: 55px 60px;
+}
+.toys_title
+{
+    text-align: center;
+    color: #A5C926;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+}
+.toys_text
+{
+    margin: 20px 0;
+    font-family: 'Varela Round';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 48px;
+    text-align: center;
+
+    color: #111111;
+}
+.btn
+{
+    width: 153px;
+    height: 48px;
+    background: #A5C926;
+    border-radius: 24px;
+    border-color: white !important;
+	transition: background-color .1s linear;
+}
+.btn:hover
+{
+	background-color: #86e68e !important;
+}
+.text__btn
+{
+    color: white;
+}
+
+/*da*/
+.da
+{
+    padding: 150px 0;
+    width: 100%;
+    
+}
+.IMG
+{
+    margin-bottom: 30px;
+}
+.Stuffed__title
+{
+    color: white;
+    margin: 30px 0;
+    font-family: 'Varela Round';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 36px;
+}
+.Wooden__title
+{
+    color: white;
+    margin: 30px 0;
+    font-family: 'Varela Round';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 36px;
+}
+.stu_woo
+{
+    display: flex;
+    justify-content: space-between;
+}
+.Stuffed
+{
+    display: flex;
+    justify-content:normal;
+    width: 50%;
+    height: 188px;
+    background-color: #FFC12C;
+    border-radius: 16px;
+    margin-right: 20px;
+    
+}
+.Wooden
+{
+    
+    display: flex;
+    justify-content:normal;
+    width: 50%;
+    height: 188px;
+    background-color:  #FB416B;
+    border-radius: 16px;
+}
+
+/*Stuffed Animals*/
+.Stuffed__Animals
+{
+    padding: 10px 0;
+    width: 100%;
+}
+.SA
+{
+    display: flex;
+    justify-content: space-between;
+}
+.SA_title
+{
+    font-family: 'Varela Round';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 36px;
+    margin-bottom: 10px;
+
+}
+.See
+{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;   
+}
+.Line
+{
+    display: flex;
+    padding: 50px 0;
+    
+}
+.green
+{
+    border-bottom: 3px solid #A5C926;
+    width: 20%;
+}
+.gray
+{
+    border-bottom: 3px solid #E5E5E5;
+    width: 80%;
+}
+.catalog
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 150px;
+
+}
+
+.catalog__block
+{
+    width: 25%;
+    text-align: center;
+}
+.catalog__title
+{
+    
+    margin-top: 15px;
+    margin-bottom: 25px;
+    font-family: 'Varela Round';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+.catalog__btn
+{
+    
+    background-color: #A5C926;
+    border-radius: 10px;
+    padding: 10px 15px ;
+}
+.catalog__btn:hover{
+	background-color: #9cc212;
+}
+.color
+{
+    width: 90%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px 15px;
+}
+
+/*Wooden Toys*/
+.Wooden__Toys
+{
+    padding: 10px 0;
+    width: 100%;
+}
+.WT
+{
+    display: flex;
+    justify-content: space-between;
+}
+.WT_title
+{
+    font-family: 'Varela Round';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 36px;
+    margin-bottom: 10px;
+
+}
+.See
+{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;   
+}
+.Line
+{
+    display: flex;
+    padding: 50px 0;
+    
+}
+.green
+{
+    border-bottom: 3px solid #A5C926;
+    width: 20%;
+}
+.gray
+{
+    border-bottom: 3px solid #E5E5E5;
+    width: 80%;
+}
+.catalog
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 150px;
+
+}
+.catalog__block
+{
+    width: 25%;
+    text-align: center;
+}
+.catalog__title
+{
+    
+    margin-top: 15px;
+    margin-bottom: 25px;
+    font-family: 'Varela Round';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+.catalog__btn
+{
+    
+    background-color: #A5C926;
+    border-radius: 10px;
+    padding: 10px 15px ;
+}
+.catalog__btn:hover{
+	background-color: #9cc212;
+}
+.color
+{
+    width: 90%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px 15px;
+}
+
+/*olen*/
+.olen
+{
+    width: 100%;
+    height: 640px;
+    background: url(img/olen.svg);
+    background-repeat: no-repeat;
+	background-size: cover;
+    padding: 160px 0;
+}
+.olen_title
+{
+    text-align: center  ;
+    font-family: 'Varela Round';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 44px;
+    color: #FFFFFF;
+}
+.olen_text
+{
+    margin: 20px 0;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.cube
+{
+    margin-top: 30px;
+    width: 64px;
+    height: 64px;
+    background-color: #A5C926;
+    padding: 25px 25px;
+}
+
+/*Simple*/
+.Simple
+{
+    background-color: white;
+    padding: 150px 0;
+}
+
+.Simple_title
+{
+    text-align: center;
+    color: #A5C926;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+}
+.Simple_text
+{
+    margin: 20px 0;
+    font-family: 'Varela Round';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 31px;
+    line-height: 48px;
+    text-align: center;
+
+    color: #111111;
+}
+
+@media screen and (max-width:1150px)
+{
+    .catalog__block
+{
+    width: 50%;
+    text-align: center;
+}
+.color
+{
+    width: 90%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px 15px;
+    margin: 15px 15px;
+}
+.container
+{
+	width: 100%;
+	max-width: 1440px;
+	margin: 0 auto;
+	padding: 0 100px;
+
+}
+
+
+}
+
+@media screen and (max-width: 720px)
+{
+    .menu_element
+    {
+        color: #111111;
+        margin: 3px 10px;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 24px;
+    }
+        .catalog__block
+    {
+        width: 50%;
+        text-align: center;
+    }
+    .color
+    {
+        width: 90%;
+        background-color: white;
+        border-radius: 10px;
+        padding: 15px 15px;
+        margin: 15px 20px;
+    }
+    .container
+    {
+        width: 100%;
+        max-width: 1440px;
+        padding: 0 60px;
+
+    }
+    .da
+    {
+        padding: 150px 0;
+        width: 100%;  
+    }
+    .Stuffed
+    {
+        display: flex;
+        justify-content:normal;
+        width: 50%;
+        height: 188px;
+        background-color: #FFC12C;
+        border-radius: 16px;
+        margin-right: 20px;
+        
+    }
+    .Wooden
+    {
+        display: flex;
+        justify-content:normal;
+        width: 50%;
+        height: 188px;
+        background-color:  #FB416B;
+        border-radius: 16px;
+    }
+    
+   
+
+
+}
+@media screen and (max-width: 612px)
+{
+    .Call_Us
+    {
+        width: 100%;
+        background-color:#A5C926;
+        height: 50px;
+    }
+    .Social
+    {
+
+        margin: 5px 10px;
+
+    }
+    .info
+    {
+        display: flex;
+        justify-content:normal;
+        margin: 5px 10px;
+    }
+    .container
+    {
+        width: 100%;
+        max-width: 1440px;
+        
+        padding: 0 30px;
+    
+    }
+}
+@media screen and (max-width: 572px)
+{
+    .block
+    {
+        
+        background-color: white;
+        width: 407px;
+        height: 358px;
+        border-radius: 15px;
+        padding: 30px 60px;
+    }
+    .toys_title
+    {
+        text-align: center;
+        color: #A5C926;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 16px;
+    }
+    .toys_text
+    {
+        margin: 20px 0;
+        font-family: 'Varela Round';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 29px;
+        line-height: 48px;
+        text-align: center;
+
+        color: #111111;
+    }
+    .menu_element
+    {
+        color: #111111;
+        margin: 3px 10px;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 11px;
+        line-height: 24px;
+    }
+   
+    .catalog__block
+    {
+        width: 50%;
+        text-align: center;
+    }
+    .color
+    {
+        width: 90%;
+        background-color: white;
+        border-radius: 10px;
+        padding: 15px 15px;
+        margin: 15px 20px;
+    }
+    .container
+    {
+        width: 100%;
+        max-width: 1440px;
+        
+        padding: 0 30px;
+    
+    }
+    .Stuffed
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:normal;
+        width: 50%;
+        height: 188px;
+        background-color: #FFC12C;
+        border-radius: 16px;
+        margin-right: 20px;
+        
+    }
+    .Wooden
+    {
+        
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:normal;
+        width: 50%;
+        height: 188px;
+        background-color:  #FB416B;
+        border-radius: 16px;
+    }
+
+
+}
+@media screen and (max-width: 500px)
+{
+    .catalog__block
+    {
+        width: 100%;
+        text-align: center;
+    }
+    .color
+    {
+        width: 90%;
+        background-color: white;
+        border-radius: 10px;
+        padding: 15px 15px;
+        margin: 15px 20px;
+    }
+}
