@@ -496,7 +496,52 @@ body
 
     color: #111111;
 }
+/*eba*/
+.eba
+{
+    margin-top: 100px;
+    display: flex;
 
+}
+.eba_blog
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+    margin: 10px 30px;
+}
+.eba_title
+{
+    margin-top: 100px;
+    font-family: 'Varela Round';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 31px;
+    line-height: 40px;
+    margin-bottom: 10px;
+}
+.eba_text
+{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 10px;
+    margin: 30px 0;
+    
+    color: #999999;
+}
+.eba_btn
+{
+    
+    background-color: #A5C926;
+    border-radius: 15px;
+    padding: 10px 15px ;
+}
+.eba_btn:hover{
+	background-color: #9cc212;
+}
 @media screen and (max-width:1150px)
 {
     .catalog__block
@@ -720,5 +765,50 @@ body
         border-radius: 10px;
         padding: 15px 15px;
         margin: 15px 20px;
+    }
+}
+@media screen and (max-width: 360px)
+{
+
+    .block
+    {
+        
+        background-color: white;
+        width: 367px;
+        height: 38px;
+        border-radius: 15px;
+        padding: 30px 60px;
+    }
+    .toys_title
+    {
+        text-align: center;
+        color: #A5C926;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 16px;
+    }
+    .toys_text
+    {
+        margin: 20px 0;
+        font-family: 'Varela Round';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 29px;
+        line-height: 48px;
+        text-align: center;
+
+        color: #111111;
+    }
+    .menu_element
+    {
+        color: #111111;
+        margin: 3px 10px;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 11px;
+        line-height: 24px;
     }
 }
